@@ -18,7 +18,7 @@ var properties = [
   prompt.start();
 prompt.get(properties, function (err, result) {
     if (err) { return onErr(err); }
-    console.log('------yoou enter---- ');
+    console.log('------you entered---- ');
     console.log('  Filename: ' + result.filename);
     console.log('  number_of_teams: ' + result.number_of_teams);
 	var input_file=result.filename;
